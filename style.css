@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Roboto-Black;
+    src: url("assets/fonts/Roboto-Black.ttf");
+  }
+  body {background: linear-gradient(117deg,
+    rgb(220, 225, 100),
+    rgb(0, 0, 99)
+    )
+  }
+
+body {font-family: 'Roboto-Black';}
+* {
+    box-sizing: border-box;
+  };
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .nav-list {
+    list-style: none;
+
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+  }
